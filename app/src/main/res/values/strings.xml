@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Pokedex</string>
+    <string name="app_name">Pokédex</string>
+    <string name="wellcome_titulo">Todos os Pokémons em um só Lugar</string>
+    <string name="wellcome_subtitulo">Acesse uma vasta lista de Pokémon de
+todas as gerações já feitas pela Nintendo</string>
 </resources>
