@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Pokedex</string>
+    <string name="app_name" translatable="false">Pokédex</string>
+
+     <!-- WELCOME ONE -->
+    <string name="welcome_one_title">Todos os Pokémons em um só Lugar</string>
+    <string name="welcome_one_subtitle">Acesse uma vasta lista de Pokémon de
+todas as gerações já feitas pela Nintendo</string>
+    <string name="mtb_welcome_one_continue">Continuar</string>
 </resources>
