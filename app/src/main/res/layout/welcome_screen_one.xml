@@ -62,7 +62,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginBottom="40dp"
             android:fontFamily="@font/poppins"
-            android:text="@string/mtb_continue"
+            android:text="@string/label_continue"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="16sp"

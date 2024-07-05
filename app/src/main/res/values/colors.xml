@@ -5,4 +5,5 @@
     <color name="gray">#666666</color>
     <color name="azul">#173EA5</color>
     <color name="dark_blue">#000029</color>
+    <color name="transparent">00000000</color>
 </resources>

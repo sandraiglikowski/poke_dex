@@ -2,7 +2,10 @@
     <string name="app_name" translatable="false">Pokédex</string>
 
     <!-- GLOBAL -->
-    <string name="mtb_continue">Continuar</string>
+    <string name="label_continue">Continuar</string>
+    <string name="label_register">Criar conta</string>
+    <string name="label_already_have_account">Já tenho uma conta</string>
+    <string name="skip">Pular</string>
 
     <!-- WELCOME ONE -->
     <string name="welcome_one_title">Todos os Pokémons em um só Lugar</string>
@@ -13,5 +16,10 @@ todas as gerações já feitas pela Nintendo</string>
     <string name="welcome_two_title">Mantenha sua\n\Pokédex atualizada</string>
     <string name="welcome_two_subtitle">Cadastre-se e mantenha seu perfil, pokémon favoritos, configurações e muito mais, salvos no aplicativo, mesmo sem conexão com a internet.</string>
     <string name="mtb_welcome_two_start">Vamos começar!</string>
+
+    <!-- LOGING/CADASTRO -->
+    <string name="welcome_login_register_title">Está pronto para essa aventura?</string>
+    <string name="welcome_login_register_subtitle">Basta criar uma conta e começar a explorar o mundo dos Pokémon hoje!</string>
+
 
 </resources>
