@@ -3,6 +3,9 @@
     <style name="Base.Theme.Pokedex" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="fontFamily">@font/poppins</item>
     </style>
 
     <style name="Theme.Pokedex" parent="Base.Theme.Pokedex" />
