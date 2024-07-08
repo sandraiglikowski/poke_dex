@@ -3,5 +3,7 @@
     <style name="Base.Theme.Pokedex" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:background">@color/white</item>
+        <item name="fontFamily">@font/poppins</item>
     </style>
 </resources>
