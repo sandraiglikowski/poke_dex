@@ -8,19 +8,18 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <!-- Utilizar o MaterialCardView -->
-        <!-- MarginEnd é 16dp -->
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/mcv_welcome_login_register_skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:strokeWidth="0dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
             app:cardCornerRadius="0dp"
             app:cardElevation="0dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeWidth="0dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"
@@ -95,7 +94,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_welcome_login_register_title" />
-        <!-- Aqui também deve ter o bias, pois em caso de uma tela maior, os botões vão se separar -->
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/mtb_welcome_login_register_create_account"
             android:layout_width="0dp"
@@ -110,8 +109,8 @@
             app:layout_constraintBottom_toTopOf="@+id/mtb_welcome_login_register_have_account"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintVertical_bias="1"
-            app:layout_constraintTop_toBottomOf="@id/tv_welcome_login_register_subtitle" />
+            app:layout_constraintTop_toBottomOf="@id/tv_welcome_login_register_subtitle"
+            app:layout_constraintVertical_bias="1" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/mtb_welcome_login_register_have_account"
