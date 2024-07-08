@@ -8,7 +8,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <!-- Utilizar o MaterialCardView -->
+        <!-- MarginEnd é 16dp -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_welcome_login_register_skip"
             android:layout_width="wrap_content"
@@ -45,8 +46,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/tv_welcome_login_register_skip"
-                    app:layout_constraintTop_toTopOf="parent"
-                    />
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -93,7 +93,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_welcome_login_register_title" />
-
+        <!-- Aqui também deve ter o bias, pois em caso de uma tela maior, os botões vão se separar -->
         <com.google.android.material.button.MaterialButton
             android:id="@+id/mtb_welcome_login_register_create_account"
             android:layout_width="0dp"
@@ -125,6 +125,5 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/mtb_welcome_login_register_create_account"
             app:layout_constraintVertical_bias="0" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
