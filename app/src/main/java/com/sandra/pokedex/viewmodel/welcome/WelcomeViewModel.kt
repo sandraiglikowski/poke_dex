@@ -1,4 +1,4 @@
-package com.sandra.pokedex.viewmodel
+package com.sandra.pokedex.viewmodel.welcome
 
 import androidx.lifecycle.ViewModel
 

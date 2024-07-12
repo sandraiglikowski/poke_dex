@@ -7,11 +7,10 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
 import com.sandra.pokedex.R
 import com.sandra.pokedex.databinding.WelcomeScreenOneFragmentBinding
 import com.sandra.pokedex.util.replaceView
-import com.sandra.pokedex.viewmodel.WelcomeViewModel
+import com.sandra.pokedex.viewmodel.welcome.WelcomeViewModel
 
 class WelcomeOneFragment : Fragment(R.layout.welcome_screen_one_fragment) {
     private lateinit var binding: WelcomeScreenOneFragmentBinding
