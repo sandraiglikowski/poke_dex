@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.get
 import com.sandra.pokedex.R
 import com.sandra.pokedex.databinding.WelcomeScreenOneFragmentBinding
+import com.sandra.pokedex.util.replaceView
 import com.sandra.pokedex.viewmodel.WelcomeViewModel
 
 class WelcomeOneFragment : Fragment(R.layout.welcome_screen_one_fragment) {
@@ -39,7 +40,7 @@ class WelcomeOneFragment : Fragment(R.layout.welcome_screen_one_fragment) {
 
     private fun setupButtons() {
         binding.mtbWelcomeOneContinue.setOnClickListener {
-            viewModel.onSwitchFragment(WelcomeActivity(), WelcomeTwoFragment())
+            activity?.replaceView(WelcomeTwoFragment.newInstace())
         }
     }
 }

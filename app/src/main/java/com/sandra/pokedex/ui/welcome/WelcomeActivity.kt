@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.sandra.pokedex.R
 import com.sandra.pokedex.databinding.ActivityWelcomeBinding
+import com.sandra.pokedex.util.replaceView
 
 class WelcomeActivity : AppCompatActivity() {
 
@@ -16,16 +17,9 @@ class WelcomeActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_welcome)
         binding.lifecycleOwner = this
         if (savedInstanceState == null) {
-            replaceFragment(WelcomeOneFragment())
-        }
-    }
-
-    fun replaceFragment(fragment: Fragment) {
-        if (supportFragmentManager.isStateSaved.not()) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.main_container, fragment)
-                .commit()
+            this.replaceView(WelcomeOneFragment())
         }
     }
 }
 //ontem já foi, hj ñ acaba e amanhã ñ chega
+//eu quero o atalho pra comenta mas deu aquele negocio
