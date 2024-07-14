@@ -21,5 +21,12 @@ todas as gerações já feitas pela Nintendo</string>
     <string name="welcome_login_register_title">Está pronto para essa aventura?</string>
     <string name="welcome_login_register_subtitle">Basta criar uma conta e começar a explorar o mundo dos Pokémon hoje!</string>
 
+    <!-- REGISTER -->
+    <string name="register_one_title">Falta pouco para explorar esse mundo!</string>
+    <string name="register_one_subtitle">Como deseja se conectar?</string>
+    <string name="register_apple">Continuar com a Apple</string>
+    <string name="register_google">Continuar com o Google</string>
+    <string name="register_email">Continuar com um e-mail</string>
+
 
 </resources>
