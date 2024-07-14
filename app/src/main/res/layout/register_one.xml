@@ -5,6 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
+    <!--
+    Criar conta no topo tá mal alinhado
+    os botões também não estão legais com esses icones
+    são 2 cards (ñ sei se dá pra fazer com button)
+    então eles ficam de tamanho diferente do botão mesmo dando o mesmo tamanho
+    e falta mais uns detalhes eu acho kk
+    -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
